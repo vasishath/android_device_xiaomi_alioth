@@ -8,8 +8,6 @@
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 #Audio
