@@ -11,11 +11,11 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := twrp_alioth
+PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
-PRODUCT_BRAND := POCO
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := POCO F3
+PRODUCT_MODEL := Mi 11X
 TARGET_SCREEN_DENSITY:=450
 
 
